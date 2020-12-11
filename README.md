@@ -20,4 +20,4 @@ services:
     volumes:
       - /path/to/my/conf.ovpn:/conf.ovpn:ro
     restart: unless-stopped
- ```
+```
