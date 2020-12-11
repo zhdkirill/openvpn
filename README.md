@@ -1,5 +1,5 @@
 # openvpn
-Minimalistic image to provide VPN connectivity
+Minimalistic image to provide VPN connectivity  
 [Docker hub](https://hub.docker.com/r/zhdkirill/openvpn)
 
 ## Usage
@@ -9,7 +9,6 @@ Minimalistic image to provide VPN connectivity
 
 ### Sample compose file
 ```
-version: '2.4'
 services:
   openvpn:
     container_name: openvpn
