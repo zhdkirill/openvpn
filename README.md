@@ -12,7 +12,7 @@ Minimalistic image to provide VPN connectivity
 services:
   openvpn:
     container_name: openvpn
-    image: zhdkirill/openvpn:latest
+    image: ghcr.io/zhdkirill/openvpn:latest
     cap_add:
       - net_admin
     devices:
